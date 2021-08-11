@@ -1,7 +1,7 @@
 require("dotenv/config");
 const express = require("express");
 const cors = require("cors");
-const connection = require("./database/mongo");
+const connection = require("./database/index");
 const app = express();
 const router = require("./routes");
 //for db stay async
